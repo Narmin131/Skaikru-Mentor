@@ -1,0 +1,70 @@
+h6 {
+  color: yellow;
+}
+
+/* div {
+  width: 300px;
+  height: 300px;
+  background-color: brown;
+  border: 3px solid black;
+  color: white;
+} */
+
+
+.first{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    border: 3px solid black;
+    color: white;
+    border-radius: 35px;
+}
+
+.second{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(42, 165, 134);
+    border: 3px solid black;
+    color: white;
+}
+
+.second p{
+    color: red;
+}
+
+.second h1{
+    color: rgb(0, 51, 128);
+}
+
+.second h1{
+    color: yellow;
+}
+
+#third{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(165, 42, 163);
+    border: 3px solid black;
+    color: white;
+}
+
+/* class ve id */
+
+
+.header{
+    width: 100%;
+    height: 12vh;
+    background-color: bisque;
+}
+
+.hero{
+    width: 100%;
+    height: 88vh;
+    background-color: blueviolet;
+}
+
+.footer{
+    width: 100%;
+    height: 14vh;
+    background-color: rgb(127, 104, 147);
+}
