@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.div1{
+    width: 40%;
+    height: 200px;
+    background-color: red;
+    /* padding: 30px;
+    padding: 20px 50px; */
+    display: inline-block;
+}
+
+
+
+.div2{
+    width:59%;
+    height: 200px;
+    background-color: rgb(107, 61, 61);
+    /* padding: 30px;
+    padding: 20px 50px; */
+
+    display: inline-block;
+}
