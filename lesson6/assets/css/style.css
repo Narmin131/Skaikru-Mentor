@@ -1,0 +1,117 @@
+header {
+  width: 100%;
+  height: 12vh;
+  background-color: bisque;
+}
+
+.logoBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  input {
+    width: 80%;
+    border: 1px solid blue;
+    padding: 12px 22px;
+  }
+  i {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+  }
+}
+
+.icons {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  .icon-box {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+nav {
+  width: 100%;
+  height: 6vh;
+  background-color: antiquewhite;
+  .box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.hero {
+  width: 100%;
+  height: 90vh;
+  background-color: rgb(154, 127, 93);
+  .dropbox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid rgb(228, 222, 222);
+    li {
+      height: 40px;
+      line-height: 1.4;
+    }
+  }
+  .imgBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+      height: 90%;
+      object-fit: cover;
+    }
+  }
+}
+
+.myBox {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  position: relative;
+}
+
+.myBox::after {
+  content: "";
+  width: 100%;
+  height: 0;
+  background-color: rgb(112, 73, 26);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.myBox:hover::after {
+  height: 100%;
+}
